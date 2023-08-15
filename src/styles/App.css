@@ -48,3 +48,16 @@ button{
     padding: 10px;
     background-color: aqua;
 }
+[data-test-id^="menu-item-shakes"] {
+  padding: 0px;
+  }
+  
+  /* Style for Lunch category */
+  [data-test-id^="menu-item-lunch"] {
+    padding: 0px;
+  }
+  
+  /* Style for Breakfast category */
+  [data-test-id^="menu-item-breakfast"] {
+    padding: 0px;
+  }
