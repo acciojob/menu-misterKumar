@@ -20,7 +20,7 @@ const DishApp = () => {
 
   return (
     <main>
-      <section className="menu section">
+      <section className="menu section" id='main'>
         <h1 className="title">Our Menu</h1>
         <CategoryFilter categories={categories} filterItems={filterItems} />
         <DishList dishes={dishes} />

@@ -14,6 +14,18 @@ button{
     height: auto;
     width: fit-content;
 }
+#main{
+    padding: 5px;
+}
+#filter-btn-1{
+    padding: auto;
+}
+#filter-btn-2{
+    padding: auto;
+}
+#filter-btn-3{
+    padding: auto;
+}
 .btn-container{
     display: flex;
     flex-direction: row;
