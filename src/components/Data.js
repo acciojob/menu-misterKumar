@@ -1,11 +1,24 @@
 import React from "react";
-const dishes = [
+
+/* const pic=[
+  require('./images/item1.jpeg'),
+  require('./images/item2.jpeg'),
+  require('./images/item3.jpeg'),
+  require('./images/item4.jpeg'),
+  require('./images/item5.jpeg'),
+  require('./images/item6.jpeg'),
+  require('./images/item7.jpeg'),
+  require('./images/item8.jpeg'),
+  require('./images/item9.jpeg')
+
+] */
+export const dishes = [
     {
         id: 1,
         title: 'buttermilk pancakes',
         category: 'breakfast',
         price: 15.99,
-        img: './images/item-1.jpeg',
+        img:'./images/item1.jpeg',
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
       },
       {
@@ -13,7 +26,7 @@ const dishes = [
         title: 'diner double',
         category: 'lunch',
         price: 13.99,
-        img: './images/item-2.jpeg',
+        img: './images/item2.jpeg',
         desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
       },
       {
@@ -21,7 +34,7 @@ const dishes = [
         title: 'godzilla milkshake',
         category: 'shakes',
         price: 6.99,
-        img: './images/item-3.jpeg',
+        img: './images/item3.jpeg',
         desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
       },
       {
@@ -29,7 +42,7 @@ const dishes = [
         title: 'country delight',
         category: 'breakfast',
         price: 20.99,
-        img: './images/item-4.jpeg',
+        img: './images/item4.jpeg',
         desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
       },
       {
@@ -37,7 +50,7 @@ const dishes = [
         title: 'egg attack',
         category: 'lunch',
         price: 22.99,
-        img: './images/item-5.jpeg',
+        img: './images/item5.jpeg',
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
       },
       {
@@ -45,7 +58,7 @@ const dishes = [
         title: 'oreo dream',
         category: 'shakes',
         price: 18.99,
-        img: './images/item-6.jpeg',
+        img: './images/item6.jpeg',
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
       },
       {
@@ -53,7 +66,7 @@ const dishes = [
         title: 'bacon overflow',
         category: 'breakfast',
         price: 8.99,
-        img: './images/item-7.jpeg',
+        img: './images/item7.jpeg',
         desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
       },
       {
@@ -61,7 +74,7 @@ const dishes = [
         title: 'american classic',
         category: 'lunch',
         price: 12.99,
-        img: './images/item-8.jpeg',
+        img: './images/item8.jpeg',
         desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
       },
       {
@@ -69,7 +82,7 @@ const dishes = [
         title: 'quarantine buddy',
         category: 'shakes',
         price: 16.99,
-        img: './images/item-9.jpeg',
+        img: './images/item9.jpeg',
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
       },
   ];

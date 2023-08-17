@@ -61,3 +61,15 @@ button{
 #menu-item-breakfast {
     padding: 0px;
   }
+
+  .pic{
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 300px;
+    height: 100px;
+    
+
+  }
+  .dish-info{
+    margin-left: 10px;
+  }
