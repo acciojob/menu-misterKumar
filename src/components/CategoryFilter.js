@@ -9,7 +9,7 @@ const CategoryFilter = ({ categories, filterItems }) => {
             key={index}
             className="filter-btn"
             id={`filter-btn-${index + 1}`}
-
+            data-test-id={`filter-btn-${category.toLowerCase()}`}
             onClick={() => filterItems(category)}
           >
             {category}

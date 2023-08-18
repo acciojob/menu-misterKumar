@@ -1,6 +1,6 @@
 import React from "react";
 
-/* const pic=[
+const pic=[
   require('./images/item1.jpeg'),
   require('./images/item2.jpeg'),
   require('./images/item3.jpeg'),
@@ -11,7 +11,7 @@ import React from "react";
   require('./images/item8.jpeg'),
   require('./images/item9.jpeg')
 
-] */
+]
 export const dishes = [
     {
         id: 1,

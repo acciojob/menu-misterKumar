@@ -2,7 +2,7 @@ import React from 'react';
 
 const Dish = ({ id, title, category, price, img, desc }) => {
   return (
-    <article className="dish" id={`menu-item-${category.toLowerCase()}`}>
+    <article className="dish" id={`menu-item-${category.toLowerCase()}`} data-test-id={`menu-item-${category.toLowerCase()}`}>
       {/* <p>Id :{id}</p> */}
       <img className="pic" src={img} alt={title}  />
       <div className="dish-info">
