@@ -73,3 +73,15 @@ button{
   .dish-info{
     margin-left: 10px;
   }
+  [data-test-id^="menu-item-breakfast"] {
+   
+    padding: auto;
+  }
+  [data-test-id^="menu-item-lunch"] {
+    
+    padding: auto;
+  }
+  [data-test-id^="menu-item-breakfast-shakes"] {
+ 
+    padding: auto;
+  }
