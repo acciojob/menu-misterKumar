@@ -1,41 +1,21 @@
-import React,{useEffect, useState} from "react";
-import {data} from "../data";
-import MenuDetails from "../components/MenuDetails";
-import "./menuList.css"
+import React, {useState} from 'react'
+import ItemList from './itemList';
+import Display from './display'
+import CSSS from '../styles/App.css'
 
+function App() {
+    const [list, setList] = useState([])
 
-const App=()=>{
- const [FilterData,setFilterData] = useState("")
- const [selectedCategory,setSelectedCategory] = useState("");
-
-
-const selectCategory = (event) => {
-       setSelectedCategory(event.target.textContent.toLowerCase());
-}
-useEffect(()=>{
-        if(selectedCategory!="" && selectedCategory!="all"){
-            setFilterData(data.filter(d=> d.category==selectedCategory));
-        }else{
-            setFilterData(data);
-        }
-},[selectedCategory])
-console.log(setFilterData);
-    return(
-        <div id="main" className="main">
-            <div className="header">
-            <h1>Our Manu</h1>
-    <div className="menu">
-            <button data-test-id="menu-item-all" onClick={selectCategory}>All</button>
-            <button id="filter-btn-3" data-test-id="menu-item-breakfast" onClick={selectCategory}>Breakfast</button>
-            <button id="filter-btn-2" data-test-id="menu-item-lunch" onClick={selectCategory}>Lunch</button>
-            <button id="filter-btn-3" data-test-id="menu-item-shakes" onClick={selectCategory}>Shakes</button>
-        </div>
-            </div>
-       <div className="
-       menuList">   <MenuDetails data={FilterData}/></div>
-     
-        </div>
-    )
+  return (
+    <div>
+      <h1 style={{
+        width: "25%",
+        margin: "auto"
+    }}>Our Menu</h1>
+      <ItemList setList={setList}/>
+      <Display list={list} />
+    </div>
+  )
 }
 
-export default App;
+export default App
