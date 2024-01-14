@@ -1,87 +1,12 @@
 h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+  color: #27aedb;
+  text-align: center;
+  }
+  
 
 button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-.menu{
-    height: auto;
-    width: fit-content;
-}
-#main{
-    padding: 5px;
-}
-#filter-btn-1{
-    padding: auto;
-}
-#filter-btn-2{
-    padding: auto;
-}
-#filter-btn-3{
-    padding: auto;
-}
-.btn-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: green;
-    height: 30px;
-}
-.dish-list{
-    display: grid;
-    grid-template-columns: repeat(2,auto);
-    grid-template-rows: repeat(auto,auto);
-    
-    align-items: flex-start;
-    padding: auto;
-    column-gap: 20px;
-    row-gap: 30px;
-    /* border: 3px solid blue; */
-}
-.dish{
-    padding: 10px;
-    background-color: aqua;
-}
-#menu-item-shakes {
-  padding: 0px;
-  }
-  
-  /* Style for Lunch category */
- #menu-item-lunch {
-    padding: 0px;
-  }
-  
-  /* Style for Breakfast category */
-#menu-item-breakfast {
-    padding: 0px;
-  }
-
-  .pic{
-    margin-left: 15%;
-    margin-top: 10%;
-    width: 300px;
-    height: 100px;
-    
-
-  }
-  .dish-info{
-    margin-left: 10px;
-  }
-  [data-test-id="menu-item-breakfast"] {
-   
-    padding: auto;
-  }
-  [data-test-id="menu-item-lunch"] {
-    
-    padding: auto;
-  }
-  [data-test-id="menu-item-shakes"] {
- 
-    padding: auto;
-  }
