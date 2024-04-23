@@ -1,21 +1,12 @@
-import React, {useState} from 'react'
-import ItemList from './itemList';
-import Display from './display'
-import CSSS from '../styles/App.css'
+import React from "react";
+import Menu from "./Menu.js";
 
 function App() {
-    const [list, setList] = useState([])
-
   return (
     <div>
-      <h1 style={{
-        width: "25%",
-        margin: "auto"
-    }}>Our Menu</h1>
-      <ItemList setList={setList}/>
-      <Display list={list} />
+      <Menu />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
