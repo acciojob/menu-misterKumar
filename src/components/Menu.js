@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "../styles/App.css";
 const data = [
   {
     id: 1,
@@ -116,7 +116,7 @@ const Menu = () => {
           <div data-test-id="menu-item-shakes">
             <img src={food.img} alt={food.title}></img>
             <h2>
-              <span>{food.title}</span> <span>{food.price}</span>
+              <span>{food.title}</span> <span className="price">{food.price}</span>
             </h2>
             <p>{food.desc}</p>
           </div>
@@ -124,7 +124,7 @@ const Menu = () => {
           <div data-test-id="menu-item-lunch">
             <img src={food.img} alt={food.title}></img>
             <h2>
-              <span>{food.title}</span> <span>{food.price}</span>
+              <span>{food.title}</span> <span className="price">{food.price}</span>
             </h2>
             <p>{food.desc}</p>
           </div>
@@ -132,7 +132,7 @@ const Menu = () => {
           <div data-test-id="menu-item-breakfast">
             <img src={food.img} alt={food.title}></img>
             <h2>
-              <span>{food.title}</span> <span>{food.price}</span>
+              <span>{food.title}</span> <span className="price">{food.price}</span>
             </h2>
             <p>{food.desc}</p>
           </div>
@@ -140,7 +140,7 @@ const Menu = () => {
           <div>
             <img src={food.img} alt={food.title}></img>
             <h2>
-              <span>{food.title}</span> <span>{food.price}</span>
+              <span>{food.title}</span> <span className="price">{food.price}</span>
             </h2>
             <p>{food.desc}</p>
           </div>
